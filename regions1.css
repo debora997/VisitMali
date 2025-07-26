@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #6b8e23;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.intro {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+    margin: 20px;
+}
+
+.gallery h2 {
+    text-align: center;
+}
+
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.photo {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+.photo p {
+    text-align: center;
+    padding: 10px;
+    background-color: #6b8e23;
+    color: white;
+}
+
+.places {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.places h2 {
+    text-align: center;
+}
+
+.places ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.places li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #6b8e23;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

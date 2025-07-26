@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+:root{
+--primary-color:#2c3855;
+--primary-color-dark:#43561;
+--text-dark:#333333;
+--text-light:#767268;
+--extra-light:#f3f4f6;
+--white:#ffffff;
+--max-width:1000px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+.section_conainer{
+    max-width:var(--max-width) ;
+    margin:auto ;
+    padding:5rem 1rem ;
+}
+
+.section_header{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    display: flex;
+}
+body{
+    font-family: "Poppins",sans-serif;
+}
+nav{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav_logo{
+   font-size: 1.5rem;
+   font-weight: 800; 
+   color: var(--text-dark);
+}
+
+.nav_links{
+    list-style:none ;
+    display:flex ;
+    align-items: center;
+    gap: 2rem;
+}
+.link a{
+    font-weight: 500;
+    color: var(--text-light);
+    transition: 0.3s;
+}
+.link a:hover{
+    color: var(--primary-color);
+}
+.header_container{
+    padding: 1rem 1rem 5rem ;
+
+}
+.header_image_container{
+    position: relative;
+    min-height: 700px;
+    background-image: linear-gradient(
+        to right,
+        rgba(215, 32, 32, 0.9)
+        rgba(66, 107, 212, 0.1)),
+        url("IMG/lit.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 2rem;
+}
+.header_content{
+    max-width: 600px;
+    padding: 5rem 2rem;
+}
+.header_content h1{
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight: 600;
+    color: var(--extra-light);
+}
+.header_content p{
+    color: var(--extra-light);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    background-image: url('MG/HRA.jpg'); /* Remplacez par votre image de chambre d'hôtel */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    background: rgba(176, 173, 173, 0.5); /* Ajout d'un fond semi-transparent pour rendre le texte lisible */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.hotel-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: center;
+}
+
+.hotel-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(46, 44, 44, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.hotel-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.hotel-card h2 {
+    margin: 0;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.hotel-card p {
+    padding: 0 1rem;
+    color: #666;
+}
+
+.hotel-card button {
+    background-color: #c8a2a2;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 1rem;
+    text-transform: uppercase;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.hotel-card button:hover {
+    background-color: #555;
+}
